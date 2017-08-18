@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BE73FB1F46C45200630F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE73FA1F46C45200630F64 /* main.m */; };
+		34BE73FE1F46C45200630F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE73FD1F46C45200630F64 /* AppDelegate.m */; };
+		34BE74011F46C45200630F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE74001F46C45200630F64 /* ViewController.m */; };
+		34BE74041F46C45200630F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BE74021F46C45200630F64 /* Main.storyboard */; };
+		34BE74061F46C45200630F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BE74051F46C45200630F64 /* Assets.xcassets */; };
+		34BE74091F46C45200630F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BE74071F46C45200630F64 /* LaunchScreen.storyboard */; };
+		34BE74141F46C45300630F64 /* RSAttributeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE74131F46C45300630F64 /* RSAttributeLabelTests.m */; };
+		34BE741F1F46C45300630F64 /* RSAttributeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE741E1F46C45300630F64 /* RSAttributeLabelUITests.m */; };
+		34BE742F1F46C4B800630F64 /* RSAttributeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE742E1F46C4B800630F64 /* RSAttributeLabel.m */; };
+		34BE74321F46C52000630F64 /* NSString+RSAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE74311F46C52000630F64 /* NSString+RSAttribute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34BE74101F46C45300630F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BE73EE1F46C45200630F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BE73F51F46C45200630F64;
+			remoteInfo = RSAttributeLabel;
+		};
+		34BE741B1F46C45300630F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BE73EE1F46C45200630F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BE73F51F46C45200630F64;
+			remoteInfo = RSAttributeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BE73F61F46C45200630F64 /* RSAttributeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAttributeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BE73FA1F46C45200630F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34BE73FC1F46C45200630F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34BE73FD1F46C45200630F64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34BE73FF1F46C45200630F64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34BE74001F46C45200630F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34BE74031F46C45200630F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34BE74051F46C45200630F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34BE74081F46C45200630F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34BE740A1F46C45200630F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BE740F1F46C45300630F64 /* RSAttributeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAttributeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BE74131F46C45300630F64 /* RSAttributeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAttributeLabelTests.m; sourceTree = "<group>"; };
+		34BE74151F46C45300630F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BE741A1F46C45300630F64 /* RSAttributeLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAttributeLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BE741E1F46C45300630F64 /* RSAttributeLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAttributeLabelUITests.m; sourceTree = "<group>"; };
+		34BE74201F46C45300630F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BE742D1F46C4B800630F64 /* RSAttributeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAttributeLabel.h; sourceTree = "<group>"; };
+		34BE742E1F46C4B800630F64 /* RSAttributeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAttributeLabel.m; sourceTree = "<group>"; };
+		34BE74301F46C52000630F64 /* NSString+RSAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RSAttribute.h"; sourceTree = "<group>"; };
+		34BE74311F46C52000630F64 /* NSString+RSAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSAttribute.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BE73F31F46C45200630F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BE740C1F46C45300630F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BE74171F46C45300630F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BE73ED1F46C45200630F64 = {
+			isa = PBXGroup;
+			children = (
+				34BE73F81F46C45200630F64 /* RSAttributeLabel */,
+				34BE74121F46C45300630F64 /* RSAttributeLabelTests */,
+				34BE741D1F46C45300630F64 /* RSAttributeLabelUITests */,
+				34BE73F71F46C45200630F64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34BE73F71F46C45200630F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BE73F61F46C45200630F64 /* RSAttributeLabel.app */,
+				34BE740F1F46C45300630F64 /* RSAttributeLabelTests.xctest */,
+				34BE741A1F46C45300630F64 /* RSAttributeLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34BE73F81F46C45200630F64 /* RSAttributeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				34BE742C1F46C48F00630F64 /* RSAttributeLabel */,
+				34BE73FC1F46C45200630F64 /* AppDelegate.h */,
+				34BE73FD1F46C45200630F64 /* AppDelegate.m */,
+				34BE73FF1F46C45200630F64 /* ViewController.h */,
+				34BE74001F46C45200630F64 /* ViewController.m */,
+				34BE74021F46C45200630F64 /* Main.storyboard */,
+				34BE74051F46C45200630F64 /* Assets.xcassets */,
+				34BE74071F46C45200630F64 /* LaunchScreen.storyboard */,
+				34BE740A1F46C45200630F64 /* Info.plist */,
+				34BE73F91F46C45200630F64 /* Supporting Files */,
+			);
+			path = RSAttributeLabel;
+			sourceTree = "<group>";
+		};
+		34BE73F91F46C45200630F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BE73FA1F46C45200630F64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34BE74121F46C45300630F64 /* RSAttributeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				34BE74131F46C45300630F64 /* RSAttributeLabelTests.m */,
+				34BE74151F46C45300630F64 /* Info.plist */,
+			);
+			path = RSAttributeLabelTests;
+			sourceTree = "<group>";
+		};
+		34BE741D1F46C45300630F64 /* RSAttributeLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34BE741E1F46C45300630F64 /* RSAttributeLabelUITests.m */,
+				34BE74201F46C45300630F64 /* Info.plist */,
+			);
+			path = RSAttributeLabelUITests;
+			sourceTree = "<group>";
+		};
+		34BE742C1F46C48F00630F64 /* RSAttributeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				34BE742D1F46C4B800630F64 /* RSAttributeLabel.h */,
+				34BE742E1F46C4B800630F64 /* RSAttributeLabel.m */,
+				34BE74301F46C52000630F64 /* NSString+RSAttribute.h */,
+				34BE74311F46C52000630F64 /* NSString+RSAttribute.m */,
+			);
+			path = RSAttributeLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BE73F51F46C45200630F64 /* RSAttributeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BE74231F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabel" */;
+			buildPhases = (
+				34BE73F21F46C45200630F64 /* Sources */,
+				34BE73F31F46C45200630F64 /* Frameworks */,
+				34BE73F41F46C45200630F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSAttributeLabel;
+			productName = RSAttributeLabel;
+			productReference = 34BE73F61F46C45200630F64 /* RSAttributeLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34BE740E1F46C45300630F64 /* RSAttributeLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BE74261F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabelTests" */;
+			buildPhases = (
+				34BE740B1F46C45300630F64 /* Sources */,
+				34BE740C1F46C45300630F64 /* Frameworks */,
+				34BE740D1F46C45300630F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BE74111F46C45300630F64 /* PBXTargetDependency */,
+			);
+			name = RSAttributeLabelTests;
+			productName = RSAttributeLabelTests;
+			productReference = 34BE740F1F46C45300630F64 /* RSAttributeLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34BE74191F46C45300630F64 /* RSAttributeLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BE74291F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabelUITests" */;
+			buildPhases = (
+				34BE74161F46C45300630F64 /* Sources */,
+				34BE74171F46C45300630F64 /* Frameworks */,
+				34BE74181F46C45300630F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BE741C1F46C45300630F64 /* PBXTargetDependency */,
+			);
+			name = RSAttributeLabelUITests;
+			productName = RSAttributeLabelUITests;
+			productReference = 34BE741A1F46C45300630F64 /* RSAttributeLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BE73EE1F46C45200630F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34BE73F51F46C45200630F64 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34BE740E1F46C45300630F64 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34BE73F51F46C45200630F64;
+					};
+					34BE74191F46C45300630F64 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34BE73F51F46C45200630F64;
+					};
+				};
+			};
+			buildConfigurationList = 34BE73F11F46C45200630F64 /* Build configuration list for PBXProject "RSAttributeLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34BE73ED1F46C45200630F64;
+			productRefGroup = 34BE73F71F46C45200630F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BE73F51F46C45200630F64 /* RSAttributeLabel */,
+				34BE740E1F46C45300630F64 /* RSAttributeLabelTests */,
+				34BE74191F46C45300630F64 /* RSAttributeLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BE73F41F46C45200630F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BE74091F46C45200630F64 /* LaunchScreen.storyboard in Resources */,
+				34BE74061F46C45200630F64 /* Assets.xcassets in Resources */,
+				34BE74041F46C45200630F64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BE740D1F46C45300630F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BE74181F46C45300630F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BE73F21F46C45200630F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BE74011F46C45200630F64 /* ViewController.m in Sources */,
+				34BE73FE1F46C45200630F64 /* AppDelegate.m in Sources */,
+				34BE742F1F46C4B800630F64 /* RSAttributeLabel.m in Sources */,
+				34BE74321F46C52000630F64 /* NSString+RSAttribute.m in Sources */,
+				34BE73FB1F46C45200630F64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BE740B1F46C45300630F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BE74141F46C45300630F64 /* RSAttributeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BE74161F46C45300630F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BE741F1F46C45300630F64 /* RSAttributeLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34BE74111F46C45300630F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BE73F51F46C45200630F64 /* RSAttributeLabel */;
+			targetProxy = 34BE74101F46C45300630F64 /* PBXContainerItemProxy */;
+		};
+		34BE741C1F46C45300630F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BE73F51F46C45200630F64 /* RSAttributeLabel */;
+			targetProxy = 34BE741B1F46C45300630F64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34BE74021F46C45200630F64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BE74031F46C45200630F64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34BE74071F46C45200630F64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BE74081F46C45200630F64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34BE74211F46C45300630F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34BE74221F46C45300630F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BE74241F46C45300630F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSAttributeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSAttributeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34BE74251F46C45300630F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSAttributeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSAttributeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34BE74271F46C45300630F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSAttributeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSAttributeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAttributeLabel.app/RSAttributeLabel";
+			};
+			name = Debug;
+		};
+		34BE74281F46C45300630F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSAttributeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSAttributeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAttributeLabel.app/RSAttributeLabel";
+			};
+			name = Release;
+		};
+		34BE742A1F46C45300630F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSAttributeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSAttributeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSAttributeLabel;
+			};
+			name = Debug;
+		};
+		34BE742B1F46C45300630F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSAttributeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSAttributeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSAttributeLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BE73F11F46C45200630F64 /* Build configuration list for PBXProject "RSAttributeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BE74211F46C45300630F64 /* Debug */,
+				34BE74221F46C45300630F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BE74231F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BE74241F46C45300630F64 /* Debug */,
+				34BE74251F46C45300630F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34BE74261F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BE74271F46C45300630F64 /* Debug */,
+				34BE74281F46C45300630F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34BE74291F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BE742A1F46C45300630F64 /* Debug */,
+				34BE742B1F46C45300630F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BE73EE1F46C45200630F64 /* Project object */;
+}
