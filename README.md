@@ -2,7 +2,7 @@
 功能简单，使用更简单的富文本封装
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
-![](https://img.shields.io/badge/download-791K-brightgreen.svg)
+![](https://img.shields.io/badge/download-2.1MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 之前见到的一些富文本库大都使用颇为繁琐，虽然有些配合 H5 代码已经可以翻天覆地，但是大多数时候，我们真正需要的功能其实并不多。
