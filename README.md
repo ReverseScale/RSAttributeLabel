@@ -26,11 +26,11 @@
 
 ## Usage 使用方法
 ### 第一步 引入头文件
-```
+```objc
 #import "RSAttributeLabel.h"
 ```
 ### 第二步 简单调用
-```
+```objc
 RSAttributeLabel *label0 = [[RSAttributeLabel alloc]initWithFrame:CGRectMake(16, 100, K_ScreenWidth - 16 * 2, 100)];
 label0.text = @"1、这是一个<富文本label>，当你点击红色的文字的时候，你会看到一个弹框，当你点击确定按钮时候，会在控制台输出你所点击的<文字>,如果你想展示\\<\\>,那么需要在‘\\<’和‘\\>’前加两个'\\'进行转义。";
 label0.font = [UIFont systemFontOfSize:10];
