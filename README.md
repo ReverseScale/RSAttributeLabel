@@ -9,7 +9,7 @@
 
 | 名称 |1.列表页 |2.展示页 |
 | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-18/13245816.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-18/97894681.jpg) |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-17/38291783.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-17/106814.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 纯代码和XIB富文本展示 |
 
 
