@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341052132085DD0B00B54D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341052112085DD0B00B54D3D /* LaunchScreen.storyboard */; };
+		341052142085DD0B00B54D3D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 341052122085DD0B00B54D3D /* Default.png */; };
 		34BE73FB1F46C45200630F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE73FA1F46C45200630F64 /* main.m */; };
 		34BE73FE1F46C45200630F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE73FD1F46C45200630F64 /* AppDelegate.m */; };
 		34BE74011F46C45200630F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE74001F46C45200630F64 /* ViewController.m */; };
 		34BE74041F46C45200630F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BE74021F46C45200630F64 /* Main.storyboard */; };
 		34BE74061F46C45200630F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BE74051F46C45200630F64 /* Assets.xcassets */; };
-		34BE74091F46C45200630F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BE74071F46C45200630F64 /* LaunchScreen.storyboard */; };
 		34BE74141F46C45300630F64 /* RSAttributeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE74131F46C45300630F64 /* RSAttributeLabelTests.m */; };
 		34BE741F1F46C45300630F64 /* RSAttributeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE741E1F46C45300630F64 /* RSAttributeLabelUITests.m */; };
 		34BE742F1F46C4B800630F64 /* RSAttributeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE742E1F46C4B800630F64 /* RSAttributeLabel.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341052112085DD0B00B54D3D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341052122085DD0B00B54D3D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34BE73F61F46C45200630F64 /* RSAttributeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAttributeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BE73FA1F46C45200630F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34BE73FC1F46C45200630F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +48,6 @@
 		34BE74001F46C45200630F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34BE74031F46C45200630F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34BE74051F46C45200630F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34BE74081F46C45200630F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34BE740A1F46C45200630F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BE740F1F46C45300630F64 /* RSAttributeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAttributeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BE74131F46C45300630F64 /* RSAttributeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAttributeLabelTests.m; sourceTree = "<group>"; };
@@ -114,7 +116,8 @@
 				34BE74001F46C45200630F64 /* ViewController.m */,
 				34BE74021F46C45200630F64 /* Main.storyboard */,
 				34BE74051F46C45200630F64 /* Assets.xcassets */,
-				34BE74071F46C45200630F64 /* LaunchScreen.storyboard */,
+				341052122085DD0B00B54D3D /* Default.png */,
+				341052112085DD0B00B54D3D /* LaunchScreen.storyboard */,
 				34BE740A1F46C45200630F64 /* Info.plist */,
 				34BE73F91F46C45200630F64 /* Supporting Files */,
 			);
@@ -265,9 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BE74091F46C45200630F64 /* LaunchScreen.storyboard in Resources */,
+				341052132085DD0B00B54D3D /* LaunchScreen.storyboard in Resources */,
 				34BE74061F46C45200630F64 /* Assets.xcassets in Resources */,
 				34BE74041F46C45200630F64 /* Main.storyboard in Resources */,
+				341052142085DD0B00B54D3D /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,14 +342,6 @@
 				34BE74031F46C45200630F64 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34BE74071F46C45200630F64 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34BE74081F46C45200630F64 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -445,7 +441,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = RSAttributeLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -458,7 +453,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = RSAttributeLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -532,6 +526,7 @@
 				34BE74251F46C45300630F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34BE74261F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +535,7 @@
 				34BE74281F46C45300630F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34BE74291F46C45300630F64 /* Build configuration list for PBXNativeTarget "RSAttributeLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +544,7 @@
 				34BE742B1F46C45300630F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

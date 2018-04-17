@@ -55,12 +55,12 @@ RightBlock();\
 
 - (void)testAttributeLabel01 {
     /*设置高亮可点击文字*/
-    RSAttributeLabel *label0 = [[RSAttributeLabel alloc]initWithFrame:CGRectMake(16, 100, K_ScreenWidth - 16 * 2, 100)];
+    RSAttributeLabel *label0 = [[RSAttributeLabel alloc]initWithFrame:CGRectMake(16, 150, K_ScreenWidth - 16 * 2, 100)];
     label0.text = @"1、这是一个<富文本label>，当你点击红色的文字的时候，你会看到一个弹框，当你点击确定按钮时候，会在控制台输出你所点击的<文字>,如果你想展示\\<\\>,那么需要在‘\\<’和‘\\>’前加两个'\\'进行转义。";
-    label0.font = [UIFont systemFontOfSize:10];
+    label0.font = [UIFont systemFontOfSize:20];
     label0.textColor = [UIColor blackColor];
     
-    label0.highlightFont = [UIFont systemFontOfSize:12];
+    label0.highlightFont = [UIFont systemFontOfSize:22];
     label0.highlightColor = [UIColor redColor];
     label0.HighlightAction = ^(NSString *highlightText){
         ALERT_VIEW(@"您点击了高亮文字",highlightText, @"取消", ^{}, @"确定", ^{
